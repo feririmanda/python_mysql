@@ -14,5 +14,5 @@ mycursor = mydb.cursor()
 # print("Table customers created successfully")
 
 #create table with primary key
-mycursor.execute("CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))")
+mycursor.execute("CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))")
 print("Table users created successfully with primary key")    
